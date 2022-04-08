@@ -1,7 +1,7 @@
 module.exports = {
   root: true,
   env: {
-    node: true,
+    node: true
   },
   globals: {
     analytics: 'readonly',
@@ -13,7 +13,7 @@ module.exports = {
     '@vue/typescript'
   ],
   plugins: [
-    "only-warn"
+    'only-warn'
   ],
   rules: {
     'arrow-parens': 'off',
