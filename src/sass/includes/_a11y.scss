@@ -1,0 +1,13 @@
+/* For accessible anchors that don't look anchor-y */
+@mixin empty-anchor {
+  color: unset;
+  text-decoration: none;
+}
+
+/* For accessible buttons that don't look button-y */
+@mixin empty-button {
+  appearance: none;
+  background: transparent;
+  border: none;
+  padding: 0;
+}

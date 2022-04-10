@@ -12,8 +12,14 @@
     "test:e2e": "concurrently \"npm:server\" \"vue-cli-service test:e2e\""
   },
   "dependencies": {
+    "@kongponents/kbadge": "^6.24.7",
     "@kongponents/kbutton": "^6.24.5",
     "@kongponents/kcard": "^1.0.0",
+    "@kongponents/kemptystate": "^6.24.5",
+    "@kongponents/kicon": "^6.24.5",
+    "@kongponents/kinput": "^6.24.5",
+    "@kongponents/ktextarea": "^6.24.7",
+    "@kongponents/ktoaster": "^6.24.7",
     "@kongponents/styles": "^6.24.5",
     "axios": "^0.21.1",
     "core-js": "^3.6.5",

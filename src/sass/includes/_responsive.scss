@@ -1,0 +1,17 @@
+$breakpoint-sm: 470px;
+$breakpoint-md: 705px;
+$breakpoint-lg: 940px;
+
+$breakpoints: (
+  sm: $breakpoint-sm,
+  md: $breakpoint-md,
+  lg: $breakpoint-lg
+);
+
+@mixin breakup($size) {
+  $value: map-get($breakpoints, $size);
+
+  @media (min-width: $value) {
+    @content;
+  }
+}

@@ -1,0 +1,21 @@
+/**
+* Super light reset
+*/
+body {
+    // moved font stuff from #app to fix toasts
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+}
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+/* Can't get the icons to match the text color of the buttons automatically, so I hacked that ish globally */
+.k-button svg {
+    path {
+        stroke: currentColor !important;
+    }
+}

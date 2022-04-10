@@ -60,8 +60,12 @@ module.exports = {
     'no-unused-vars': 'off',
     'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
     '@typescript-eslint/no-unused-vars': 'error',
+    'no-trailing-spaces': 'error',
     'vue/custom-event-name-casing': 'off',
-    'no-trailing-spaces': 'error'
+    // Tweaked some rules that were bugging me
+    'vue/max-attributes-per-line': 'off',
+    'vue/html-self-closing': 'off',
+    'vue/singleline-html-element-content-newline': 'off'
   },
   overrides: [
     {

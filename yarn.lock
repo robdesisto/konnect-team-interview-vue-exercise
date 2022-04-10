@@ -960,28 +960,106 @@
     "cssnano-preset-default" "^4.0.0"
     "postcss" "^7.0.0"
 
-"@kongponents/kbutton@^6.24.5":
-  "integrity" "sha512-y2L1gr1W4EegGtx9yXHXz592J3fYI6UceA99Nkikw/dx9Yh4Bmz87IRs9ZTj4zcV05qbhDhP/pEvkNwdcxdZPA=="
-  "resolved" "https://registry.npmjs.org/@kongponents/kbutton/-/kbutton-6.24.5.tgz"
-  "version" "6.24.5"
+"@kongponents/kalert@^6.24.7":
+  "integrity" "sha512-Mt6ICAVflU+3+HN6/PxHOrHcb6pmkbrkBQmo7UOdhTphS2+GqqD6ZS0+EdaplhgdrOfnvpa+lUQnWlTo7Q/Khw=="
+  "resolved" "https://registry.npmjs.org/@kongponents/kalert/-/kalert-6.24.7.tgz"
+  "version" "6.24.7"
   dependencies:
-    "@kongponents/kicon" "^6.24.5"
-    "@kongponents/styles" "^6.24.5"
+    "@kongponents/kbutton" "^6.24.7"
+    "@kongponents/kicon" "^6.24.7"
+    "@kongponents/styles" "^6.24.7"
+
+"@kongponents/kbadge@^6.24.7":
+  "integrity" "sha512-g3PrGnCcIFwpaJBJfKH1RIwK2YtQcvecIGsVRJ132PsEovnyVc7CQH9l1bm3Ax04U7SZnRj3keViBIahLtg73w=="
+  "resolved" "https://registry.npmjs.org/@kongponents/kbadge/-/kbadge-6.24.7.tgz"
+  "version" "6.24.7"
+  dependencies:
+    "@kongponents/styles" "^6.24.7"
+
+"@kongponents/kbutton@^6.24.5", "@kongponents/kbutton@^6.24.7":
+  "integrity" "sha512-CzenHoaB3q8gt3ZxsRpAPPiQGkzF5zdDX5T9i0PqXLl9GQqFoWTuZYAqQZxXWDGKWoMxbeCn/6aV988cNepLVQ=="
+  "resolved" "https://registry.npmjs.org/@kongponents/kbutton/-/kbutton-6.24.7.tgz"
+  "version" "6.24.7"
+  dependencies:
+    "@kongponents/kicon" "^6.24.7"
+    "@kongponents/styles" "^6.24.7"
 
 "@kongponents/kcard@^1.0.0":
   "integrity" "sha512-CRQo/S+pj72fVNaLJpPrLB2p05w+nf3GISrykQG32jVpay2k+EpFWuuiEMR4go8RkeZIY7Hi7kcgiApYSQm3gg=="
   "resolved" "https://registry.npmjs.org/@kongponents/kcard/-/kcard-1.0.0.tgz"
   "version" "1.0.0"
 
-"@kongponents/kicon@^6.24.5":
-  "integrity" "sha512-f7kMzkjpG9ZUZrI660+rYrwTbKFy95bj7RQAYktiZQQvPzqHiqklAKixQdpr+8jnjutFYicN4SA/JAwqxVLAeg=="
-  "resolved" "https://registry.npmjs.org/@kongponents/kicon/-/kicon-6.24.5.tgz"
+"@kongponents/kemptystate@^6.24.5":
+  "integrity" "sha512-l2pRWrawnpY+fNiWlGcR+QdIFNotlE+nm5J3cUBvQYKubrKydrdKoFsu3jrqoEBGMBe/6r6Pw65yMnKVy8iZtg=="
+  "resolved" "https://registry.npmjs.org/@kongponents/kemptystate/-/kemptystate-6.24.5.tgz"
   "version" "6.24.5"
+  dependencies:
+    "@kongponents/kbutton" "^6.24.5"
+    "@kongponents/kicon" "^6.24.5"
+    "@kongponents/styles" "^6.24.5"
 
-"@kongponents/styles@^6.24.5":
-  "integrity" "sha512-GwkSbn0X7mabPpm8KPfBZdmMQEyB1hUG0EEFXcM+ory0SnXkXWVS8KSmeC6SzaEBxWs1wtFrrz4iHeR1geGeqQ=="
-  "resolved" "https://registry.npmjs.org/@kongponents/styles/-/styles-6.24.5.tgz"
-  "version" "6.24.5"
+"@kongponents/kicon@^6.24.5", "@kongponents/kicon@^6.24.7":
+  "integrity" "sha512-YUDeOwxsNvc+X2YV7I/AbvFxoEgzchEAlrepHxOL8swfJaY+dytqAmla1NXHQCm66V+Z8ROkbC3+hygIwOS9iA=="
+  "resolved" "https://registry.npmjs.org/@kongponents/kicon/-/kicon-6.24.7.tgz"
+  "version" "6.24.7"
+
+"@kongponents/kinput@^6.24.5":
+  "integrity" "sha512-wxoSaFkBcc3BlNW1HGyzm5xIuvXQYirVOfKRo2n8Vtg+KN9goRkg0fIWT5AQbRfsqhE6DUl+Uym3EecwH5/QHg=="
+  "resolved" "https://registry.npmjs.org/@kongponents/kinput/-/kinput-6.24.7.tgz"
+  "version" "6.24.7"
+  dependencies:
+    "@kongponents/klabel" "^6.24.7"
+    "@kongponents/styles" "^6.24.7"
+    "vue-uuid" "^2.0.2"
+
+"@kongponents/klabel@^6.24.7":
+  "integrity" "sha512-fmmCMl7xjRPtrDo7KtYHIlODqROKRRhpSN7CV208TZEXyHQkeD0LLwL52Gz6XnLplwCxovMWf64pe7bDUBl/Mw=="
+  "resolved" "https://registry.npmjs.org/@kongponents/klabel/-/klabel-6.24.7.tgz"
+  "version" "6.24.7"
+  dependencies:
+    "@kongponents/kicon" "^6.24.7"
+    "@kongponents/kooltip" "^6.24.7"
+    "@kongponents/styles" "^6.24.7"
+
+"@kongponents/kooltip@^6.24.7":
+  "integrity" "sha512-iU9MWOLojecPe6VGsY/BzvoxQ0EghbMeQ23HUZJX9cdxqa9LhfHnLpK7eRUESBV+xi4sxoFL+1X+3YoLzSx71Q=="
+  "resolved" "https://registry.npmjs.org/@kongponents/kooltip/-/kooltip-6.24.7.tgz"
+  "version" "6.24.7"
+  dependencies:
+    "@kongponents/kpop" "^6.24.7"
+    "@kongponents/styles" "^6.24.7"
+
+"@kongponents/kpop@^6.24.7":
+  "integrity" "sha512-l9Cc9nSuXXPFG/jskTMoe/E3Sp3FYcCpgF7F8i1etp+916d8f++4gjSPs6PlOxkUhZpWR5f6hruLca4hmYLkrQ=="
+  "resolved" "https://registry.npmjs.org/@kongponents/kpop/-/kpop-6.24.7.tgz"
+  "version" "6.24.7"
+  dependencies:
+    "@kongponents/kbutton" "^6.24.7"
+    "@kongponents/styles" "^6.24.7"
+    "popper.js" "^1.15.0"
+    "vue-uuid" "^2.0.2"
+
+"@kongponents/ktextarea@^6.24.7":
+  "integrity" "sha512-HdHDiKLquAjAUnKEKtuwBcJKRg1qnAz7mNyG+4L5fvVePNswYUd4OI+tzDw8X/xT/75J83zqED1sXsnfVaUzHA=="
+  "resolved" "https://registry.npmjs.org/@kongponents/ktextarea/-/ktextarea-6.24.7.tgz"
+  "version" "6.24.7"
+  dependencies:
+    "@kongponents/klabel" "^6.24.7"
+    "@kongponents/styles" "^6.24.7"
+    "vue-uuid" "^2.0.2"
+
+"@kongponents/ktoaster@^6.24.7":
+  "integrity" "sha512-AmUvHrEqmXU9tPdKkkh9jEsBJ/jY0XMVYU9f9ATvyzaZ6IaNyEu/iuISCadJxiswL9bhXYn3Z04987pa2xezwg=="
+  "resolved" "https://registry.npmjs.org/@kongponents/ktoaster/-/ktoaster-6.24.7.tgz"
+  "version" "6.24.7"
+  dependencies:
+    "@kongponents/kalert" "^6.24.7"
+    "@kongponents/styles" "^6.24.7"
+
+"@kongponents/styles@^6.24.5", "@kongponents/styles@^6.24.7":
+  "integrity" "sha512-91ca4GQn2nnYameLMKSUybZNJK884QXLr1Ay7CYmQoT3KTWRdvbP9EYuKLXjDpQdRnTtcs4JUCT80oRhBeoByw=="
+  "resolved" "https://registry.npmjs.org/@kongponents/styles/-/styles-6.24.7.tgz"
+  "version" "6.24.7"
 
 "@mrmlnc/readdir-enhanced@^2.2.1":
   "integrity" "sha512-bPHp6Ji8b41szTOcaP63VlnbbO5Ny6dwAATtY6JTjh5N2OLrb5Qk/Th5cRkRQhkWCt+EJsYrNB0MiL+Gpn6e3g=="
@@ -1259,6 +1337,11 @@
   "version" "3.11.1"
   dependencies:
     "source-map" "^0.6.1"
+
+"@types/uuid@^8.3.4":
+  "integrity" "sha512-c/I8ZRb51j+pYGAu5CrFMRxqZ2ke4y2grEBO5AUjgSkSk+qT2Ea+OdWElz/OiMf5MNpn2b17kuVBwZLQJXzihw=="
+  "resolved" "https://registry.npmjs.org/@types/uuid/-/uuid-8.3.4.tgz"
+  "version" "8.3.4"
 
 "@types/webpack-dev-server@^3.11.0":
   "integrity" "sha512-rIb+LtUkKnh7+oIJm3WiMJONd71Q0lZuqGLcSqhZ5qjN9gV/CNmZe7Bai+brnBPZ/KVYOsr+4bFLiNZwjBicLw=="
@@ -8507,6 +8590,11 @@
   dependencies:
     "ts-pnp" "^1.1.6"
 
+"popper.js@^1.15.0":
+  "integrity" "sha512-Wb4p1J4zyFTbM+u6WuO4XstYx4Ky9Cewe4DWrel7B0w6VVICvPwdOpotjzcf6eD8TsckVnIMNONQyPIUFOUbCQ=="
+  "resolved" "https://registry.npmjs.org/popper.js/-/popper.js-1.16.1.tgz"
+  "version" "1.16.1"
+
 "portfinder@^1.0.26":
   "integrity" "sha512-Se+2isanIcEqf2XMHjyUKskczxbPH7dQnlMjXX6+dybayyHvAf/TCgyMRlzf/B6QDhAEFOGes0pzRo3by4AbMA=="
   "resolved" "https://registry.npmjs.org/portfinder/-/portfinder-1.0.28.tgz"
@@ -11091,6 +11179,11 @@
   "resolved" "https://registry.npmjs.org/uuid/-/uuid-3.4.0.tgz"
   "version" "3.4.0"
 
+"uuid@^8.3.2":
+  "integrity" "sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg=="
+  "resolved" "https://registry.npmjs.org/uuid/-/uuid-8.3.2.tgz"
+  "version" "8.3.2"
+
 "v8-compile-cache@^2.0.3":
   "integrity" "sha512-gTpR5XQNKFwOd4clxfnhaqvfqMpqEwr4tOtCyz4MtYZX2JYhfr1JvBFKdS+7K/9rfpZR3VLX+YWBbKoxCgS43Q=="
   "resolved" "https://registry.npmjs.org/v8-compile-cache/-/v8-compile-cache-2.2.0.tgz"
@@ -11190,6 +11283,14 @@
   "integrity" "sha512-4gDntzrifFnCEvyoO8PqyJDmguXgVPxKiIxrBKjIowvL9l+N66196+72XVYR8BBf1Uv1Fgt3bGevJ+sEmxfZzw=="
   "resolved" "https://registry.npmjs.org/vue-template-es2015-compiler/-/vue-template-es2015-compiler-1.9.1.tgz"
   "version" "1.9.1"
+
+"vue-uuid@^2.0.2":
+  "integrity" "sha512-op87iCW3uePeas6+aIDCjm1UM6yHkzTyG1CIKsQunh94jVKt/bC2928GDrgX8ibak7QPcznb6ebwfCex7CjuyQ=="
+  "resolved" "https://registry.npmjs.org/vue-uuid/-/vue-uuid-2.1.0.tgz"
+  "version" "2.1.0"
+  dependencies:
+    "@types/uuid" "^8.3.4"
+    "uuid" "^8.3.2"
 
 "vue@^2 || ^3.0.0-0", "vue@^2.0.0", "vue@^2.6.11", "vue@2.x":
   "integrity" "sha512-uhmLFETqPPNyuLLbsKz6ioJ4q7AZHzD8ZVFNATNyICSZouqP2Sz0rotWQC8UNBF6VGSCs5abnKJoStA6JbCbfg=="
