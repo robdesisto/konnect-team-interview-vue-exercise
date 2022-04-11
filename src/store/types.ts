@@ -4,7 +4,7 @@ export interface Version {
   description: string;
 }
 
-interface ServerService {
+interface ServiceLike {
   id: string;
   name: string;
   description: string;
@@ -27,7 +27,7 @@ export class Service {
 
   readonly versions: Version[];
 
-  constructor (data: ServerService) {
+  constructor (data: ServiceLike) {
     this.id = data.id
     this.name = data.name
     this.description = data.description

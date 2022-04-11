@@ -8,7 +8,7 @@
     "serve": "vue-cli-service serve",
     "server": "json-server --watch db/index.js --routes db/routes.json --port 4001",
     "start": "concurrently \"npm:server\" \"npm:serve\"",
-    "test:unit": "vue-cli-service test:unit",
+    "test:watch": "vue-cli-service test:unit --watch --recursive 'src/**/*.spec.ts'",
     "test:e2e": "concurrently \"npm:server\" \"vue-cli-service test:e2e\""
   },
   "dependencies": {

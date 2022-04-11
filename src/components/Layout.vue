@@ -34,7 +34,6 @@ import Vue from 'vue'
 export default Vue.extend({
   name: 'Layout',
   props: {
-    loading: Boolean,
     title: {
       type: String,
       required: true
