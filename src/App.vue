@@ -34,7 +34,11 @@ import UserMenu from '@/components/UserMenu.vue'
 import { Actions } from '@/store'
 
 /**
- * For brevity, I'm moving a bunch off application hierarchy up. IRL there'd be a parent "Services" component
+ * For brevity, I'm moving a bunch off application hierarchy up. IRL there'd be a parent "Services"
+ * component that is a top level route with the list and CRUDish routes as children routes to that.
+ * That way the module state, etc can belong that parent. It can handle any loading stsate and
+ * errors, so the child routes for focus on their specifics. Seems like a bunch of boilerplate
+ * for this exercise though.
  */
 export default Vue.extend({
   name: 'App',

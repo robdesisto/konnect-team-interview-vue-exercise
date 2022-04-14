@@ -4,7 +4,7 @@
   too much. Besides, I should probably demonstrate the ability to do math or something.
   So I made a much dumber one. IRL this would definitely be a library component, or at the very
   least scoped up to the application's shared components.
-  For this exercise we'll assume it is a one-off.
+  For this exercise we'll pretend it is a one-off for some reason.
   -->
   <div class="d-flex align-items-center justify-content-center mb-4">
     <KButton class="page-btn" :disabled="page === 1" appearance="outline" @click="onPage(page - 1)">
@@ -13,7 +13,7 @@
       </template>
     </KButton>
     <div class="color-black-45 mx-5">
-      <!-- The mockup is zero-based but that seems so programmery -->
+      <!-- The mockup is zero-based but that seems so programmery, starting with 1 for display purposes -->
       {{ boundaries[0] + 1 }} - {{ boundaries[1] }} of {{ total }}
     </div>
     <KButton class="page-btn" :disabled="page === last" appearance="outline" @click="onPage(page + 1)">
