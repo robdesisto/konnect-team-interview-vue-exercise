@@ -58,7 +58,7 @@ export default Vue.extend({
   },
   computed: {
     boundaries () {
-      return getBoundaries(this.$props.page, this.$props.size)
+      return getBoundaries(this.$props.page, this.$props.size, this.$props.total)
     },
     last () {
       return Math.ceil(this.$props.total / this.$props.size)
